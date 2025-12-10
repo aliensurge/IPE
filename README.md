@@ -4,17 +4,17 @@ WebGuard is a lightweight website monitoring platform designed to help small bus
 
 ## Features
 
-- ✅ **Uptime Monitoring**: Automated checks to detect website downtime
-- ✅ **Defacement Detection**: Content hash comparison to detect unauthorized changes
-- ✅ **SSL Certificate Tracking**: Monitor SSL certificate expiry dates
-- ✅ **Real-Time Dashboard**: Web-based interface for managing monitored sites
-- ✅ **Telegram Notifications**: Instant alerts when incidents are detected
-- ✅ **Local-First Architecture**: All data stored locally, no cloud dependencies
+- **Uptime Monitoring**: Automated checks to detect website downtime
+- **Defacement Detection**: Content hash comparison to detect unauthorized changes
+- **SSL Certificate Tracking**: Monitor SSL certificate expiry dates
+- **Real-Time Dashboard**: Web-based interface for managing monitored sites
+- **Telegram Notifications**: Instant alerts when incidents are detected
+- **Local-First Architecture**: All data stored locally, no cloud dependencies
 
 ## Technology Stack
 
 ### Backend
-- Python 3.11+
+- Python 3.14+
 - Flask (REST API)
 - APScheduler (Task scheduling)
 - SQLite (Database)
@@ -171,11 +171,6 @@ IPE/
 │   ├── components/         # React components
 │   ├── services/          # API service
 │   └── ...
-├── docs/                   # Project documentation
-│   ├── chapter1_introduction.md
-│   ├── chapter2_literature_review.md
-│   └── ...
-└── README.md
 ```
 
 ## Development
@@ -220,15 +215,3 @@ Key configuration options in `backend/.env`:
 - `DEFAULT_CHECK_INTERVAL`: Default monitoring interval in seconds (default: 300)
 - `TELEGRAM_BOT_TOKEN`: Telegram bot token for notifications
 - `TELEGRAM_CHAT_ID`: Telegram chat ID for notifications
-
-## License
-
-This project is developed as part of a university coursework project.
-
-## Contributing
-
-This is a student project. Contributions and feedback are welcome!
-
-## Support
-
-For issues or questions, please open an issue on GitHub.
